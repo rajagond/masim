@@ -1,0 +1,24 @@
+# started on Thu Jul 11 12:05:05 2024
+
+
+ Performance counter stats for './masim ./configs/zigzag_30secs.cfg --silent':
+
+         35,178.27 msec task-clock                       #    0.997 CPUs utilized          
+                58      context-switches                 #    1.649 /sec                   
+                28      cpu-migrations                   #    0.796 /sec                   
+            49,867      page-faults                      #    1.418 K/sec                  
+    86,823,735,246      cycles                           #    2.468 GHz                      (37.49%)
+    11,391,511,896      instructions                     #    0.13  insn per cycle           (50.00%)
+     1,581,374,205      branches                         #   44.953 M/sec                    (50.01%)
+         2,911,012      branch-misses                    #    0.18% of all branches          (50.02%)
+     7,895,020,137      L1-dcache-loads                  #  224.429 M/sec                    (50.01%)
+     1,276,348,329      L1-dcache-load-misses            #   16.17% of all L1-dcache accesses  (37.49%)
+         4,091,344      LLC-loads                        #  116.303 K/sec                    (37.49%)
+           918,282      LLC-load-misses                  #   22.44% of all LL-cache accesses  (37.49%)
+
+      35.282116606 seconds time elapsed
+
+      34.988758000 seconds user
+       0.191982000 seconds sys
+
+

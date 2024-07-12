@@ -1,0 +1,24 @@
+# started on Thu Jul 11 22:18:19 2024
+
+
+ Performance counter stats for './masim ./configs/2mb.cfg --silent':
+
+          5,064.30 msec task-clock                       #    0.980 CPUs utilized          
+                12      context-switches                 #    2.370 /sec                   
+                 8      cpu-migrations                   #    1.580 /sec                   
+             1,549      page-faults                      #  305.867 /sec                   
+    12,364,860,716      cycles                           #    2.442 GHz                      (37.48%)
+    12,236,619,510      instructions                     #    0.99  insn per cycle           (50.04%)
+     1,545,846,930      branches                         #  305.244 M/sec                    (50.08%)
+         2,182,319      branch-misses                    #    0.14% of all branches          (50.08%)
+     4,573,814,720      L1-dcache-loads                  #  903.148 M/sec                    (50.04%)
+       401,982,169      L1-dcache-load-misses            #    8.79% of all L1-dcache accesses  (37.44%)
+         2,859,840      LLC-loads                        #  564.706 K/sec                    (37.44%)
+            23,298      LLC-load-misses                  #    0.81% of all LL-cache accesses  (37.44%)
+
+       5.167015257 seconds time elapsed
+
+       5.050987000 seconds user
+       0.015996000 seconds sys
+
+

@@ -1,0 +1,24 @@
+# started on Thu Jul 11 10:59:11 2024
+
+
+ Performance counter stats for '../damo/damo record -o ./perf_11_July_damo_masim_files/stairs_30secs_s1000000_a4000000_u8000000_n512_m512_default.data ./masim ./configs/stairs_30secs.cfg --silent':
+
+         36,338.23 msec task-clock                       #    1.033 CPUs utilized          
+             1,136      context-switches                 #   31.262 /sec                   
+               526      cpu-migrations                   #   14.475 /sec                   
+            97,575      page-faults                      #    2.685 K/sec                  
+    85,669,083,537      cycles                           #    2.358 GHz                      (37.76%)
+    36,009,840,192      instructions                     #    0.42  insn per cycle           (50.34%)
+     5,848,523,260      branches                         #  160.947 M/sec                    (50.18%)
+       109,848,126      branch-misses                    #    1.88% of all branches          (50.18%)
+    19,021,529,259      L1-dcache-loads                  #  523.458 M/sec                    (50.27%)
+     2,485,668,039      L1-dcache-load-misses            #   13.07% of all L1-dcache accesses  (37.71%)
+        12,517,424      LLC-loads                        #  344.470 K/sec                    (37.80%)
+         2,828,394      LLC-load-misses                  #   22.60% of all LL-cache accesses  (37.84%)
+
+      35.170003089 seconds time elapsed
+
+      32.811039000 seconds user
+       2.797335000 seconds sys
+
+

@@ -1,0 +1,24 @@
+# started on Fri Jul 12 01:32:41 2024
+
+
+ Performance counter stats for '../damo/damo record -o ./2024-07-11_perf_damo_masim_files/demo_s100000_a2000000_u2000000_n1024_m1024_default.data ./masim ./configs/demo.cfg --silent':
+
+         47,564.18 msec task-clock                       #    1.073 CPUs utilized          
+             1,263      context-switches                 #   26.554 /sec                   
+               572      cpu-migrations                   #   12.026 /sec                   
+           133,773      page-faults                      #    2.812 K/sec                  
+   111,636,037,980      cycles                           #    2.347 GHz                      (37.77%)
+    29,032,309,186      instructions                     #    0.26  insn per cycle           (50.29%)
+     5,097,949,440      branches                         #  107.180 M/sec                    (50.20%)
+       121,720,871      branch-misses                    #    2.39% of all branches          (50.25%)
+    12,615,894,919      L1-dcache-loads                  #  265.239 M/sec                    (50.28%)
+     1,597,861,728      L1-dcache-load-misses            #   12.67% of all L1-dcache accesses  (37.73%)
+        23,374,278      LLC-loads                        #  491.426 K/sec                    (37.76%)
+         5,001,716      LLC-load-misses                  #   21.40% of all LL-cache accesses  (37.70%)
+
+      44.345005203 seconds time elapsed
+
+      43.157959000 seconds user
+       3.626706000 seconds sys
+
+

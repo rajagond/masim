@@ -1,0 +1,24 @@
+# started on Thu Jul 11 10:39:11 2024
+
+
+ Performance counter stats for './masim ./configs/mem_perf.cfg --silent':
+
+         28,704.89 msec task-clock                       #    0.996 CPUs utilized          
+                58      context-switches                 #    2.021 /sec                   
+                15      cpu-migrations                   #    0.523 /sec                   
+           962,904      page-faults                      #   33.545 K/sec                  
+    70,769,584,556      cycles                           #    2.465 GHz                      (37.50%)
+    60,837,363,270      instructions                     #    0.86  insn per cycle           (50.00%)
+     8,254,906,898      branches                         #  287.578 M/sec                    (50.00%)
+         7,273,876      branch-misses                    #    0.09% of all branches          (50.01%)
+    33,371,898,250      L1-dcache-loads                  #    1.163 G/sec                    (50.00%)
+     2,564,846,723      L1-dcache-load-misses            #    7.69% of all L1-dcache accesses  (37.50%)
+       169,120,184      LLC-loads                        #    5.892 M/sec                    (37.50%)
+         1,989,951      LLC-load-misses                  #    1.18% of all LL-cache accesses  (37.49%)
+
+      28.809095623 seconds time elapsed
+
+      25.451379000 seconds user
+       3.255920000 seconds sys
+
+

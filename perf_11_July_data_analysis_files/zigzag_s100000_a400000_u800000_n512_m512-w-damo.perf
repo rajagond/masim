@@ -1,0 +1,24 @@
+# started on Thu Jul 11 12:08:14 2024
+
+
+ Performance counter stats for '../damo/damo record -o ./perf_11_July_damo_masim_files/zigzag_s100000_a400000_u800000_n512_m512.data -s 100000 -a 400000 -u 800000 -n 512 -m 512 ./masim ./configs/zigzag.cfg --silent':
+
+         88,946.03 msec task-clock                       #    1.064 CPUs utilized          
+             4,170      context-switches                 #   46.882 /sec                   
+               610      cpu-migrations                   #    6.858 /sec                   
+           312,832      page-faults                      #    3.517 K/sec                  
+   211,025,301,336      cycles                           #    2.373 GHz                      (37.79%)
+    64,171,869,541      instructions                     #    0.30  insn per cycle           (50.32%)
+    11,635,017,972      branches                         #  130.810 M/sec                    (50.15%)
+       466,012,704      branch-misses                    #    4.01% of all branches          (50.16%)
+    26,826,953,164      L1-dcache-loads                  #  301.609 M/sec                    (50.22%)
+     2,925,669,644      L1-dcache-load-misses            #   10.91% of all L1-dcache accesses  (37.64%)
+        30,660,268      LLC-loads                        #  344.706 K/sec                    (37.76%)
+        13,749,089      LLC-load-misses                  #   44.84% of all LL-cache accesses  (37.78%)
+
+      83.576453134 seconds time elapsed
+
+      82.666737000 seconds user
+       5.573329000 seconds sys
+
+

@@ -1,0 +1,24 @@
+# started on Thu Jul 11 11:33:16 2024
+
+
+ Performance counter stats for './masim ./configs/stairs.cfg --silent':
+
+         60,146.64 msec task-clock                       #    0.998 CPUs utilized          
+                96      context-switches                 #    1.596 /sec                   
+                58      cpu-migrations                   #    0.964 /sec                   
+            25,459      page-faults                      #  423.282 /sec                   
+   148,565,392,132      cycles                           #    2.470 GHz                      (37.49%)
+    43,548,930,068      instructions                     #    0.29  insn per cycle           (49.99%)
+     5,879,022,057      branches                         #   97.745 M/sec                    (49.99%)
+         5,042,482      branch-misses                    #    0.09% of all branches          (50.00%)
+    31,444,786,580      L1-dcache-loads                  #  522.802 M/sec                    (50.01%)
+     4,665,928,207      L1-dcache-load-misses            #   14.84% of all L1-dcache accesses  (37.51%)
+        10,036,448      LLC-loads                        #  166.866 K/sec                    (37.50%)
+           591,169      LLC-load-misses                  #    5.89% of all LL-cache accesses  (37.49%)
+
+      60.251517401 seconds time elapsed
+
+      60.045294000 seconds user
+       0.103995000 seconds sys
+
+

@@ -1,0 +1,24 @@
+# started on Fri Jul 12 00:52:58 2024
+
+
+ Performance counter stats for './masim ./configs/demo.cfg --silent':
+
+         40,157.72 msec task-clock                       #    0.997 CPUs utilized          
+                62      context-switches                 #    1.544 /sec                   
+                41      cpu-migrations                   #    1.021 /sec                   
+            49,870      page-faults                      #    1.242 K/sec                  
+    98,357,865,948      cycles                           #    2.449 GHz                      (37.50%)
+    12,955,492,628      instructions                     #    0.13  insn per cycle           (50.00%)
+     1,813,383,756      branches                         #   45.157 M/sec                    (50.00%)
+         4,470,541      branch-misses                    #    0.25% of all branches          (50.00%)
+     8,909,745,331      L1-dcache-loads                  #  221.869 M/sec                    (50.00%)
+     1,432,286,130      L1-dcache-load-misses            #   16.08% of all L1-dcache accesses  (37.50%)
+        11,662,024      LLC-loads                        #  290.406 K/sec                    (37.50%)
+         1,691,323      LLC-load-misses                  #   14.50% of all LL-cache accesses  (37.50%)
+
+      40.261874451 seconds time elapsed
+
+      39.984395000 seconds user
+       0.175984000 seconds sys
+
+
